@@ -1,1 +1,94 @@
+1------
+make a folder
+open gitbash in it
+git init
+git config --global user.name "Shreya281105"
+git config --global user.email shreya.ag2811@gmail.com
+echo "Text">README.txt
+git add .
+git status
+git commit -m "Initial commit"
+echo "text 2" >> README.txt
+git add .
+git commit -m "2nd commit"
+git log
+git log --oneline
+
+2------------------
+make a folder
+open gitbash in it
+git init
+git config --global user.name "Shreya281105"
+git config --global user.email shreya.ag2811@gmail.com
+echo "Text">f1.txt
+git add .
+git status
+git commit -m "Initial commit"
+git branch feature
+git checkout feature
+echo "hello">f1.txt
+git add f1.txt
+git commit -m "2nd commit"
+git checkout main/master
+echo "shreya">f1.txt
+git add f1.txt
+git commit -m "3rd commit"
+ git merge feature
+git mergetool
+tortoise open-git >right side _.right click_>3rd option->save_.close
+git add . / git add f1.txt
+git commit -m "4th commit"
+git log --oneline
+
+3............................................
+make a repo in github->create a README.txt file
+git init
+git config --global user.name "Shreya281105"
+git config --global user.email shreya.ag2811@gmail.com
+git clone https://github.com/Shreya281105/git3.git
+cd git3
+echo "hello" >f2.txt
+git add .
+git commit -m "initial commit"
+git push origin main / git push -u origin main
+go to github , edit f2
+git pull origin main
+git status
+git log --oneline
+
+4----------------------------------------------------------------
+make a repo in github->create a README.txt file
+git init
+git config --global user.name "Shreya281105"
+git config --global user.email shreya.ag2811@gmail.com
+git clone https://github.com/Shreya281105/git3.git
+cd git3
+echo "hello" >f2.txt
+git add .
+git commit -m "initial commit"
+git push origin main / git push -u origin main
+git branch feature
+git checkout feature
+echo "hello you">> f2.txt
+git add .
+git commit -m "second"
+git push origin feature 
+in github click all green
+git branch -d feature
+git push origin --delete feature
+
+5------------------------------------------------------------------------------
+make a repo in github->create a README.txt file
+git init
+git config --global user.name "Shreya281105"
+git config --global user.email shreya.ag2811@gmail.com
+git clone https://github.com/Shreya281105/git3.git
+cd git3
+git tag v1.0
+git tag
+git tag -a v1.2 -m "Hello"
+git push --tags
+git tag -d v1.0
+git push origin -d v1.0
+
 
