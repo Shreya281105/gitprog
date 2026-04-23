@@ -1,0 +1,32 @@
+6-----------------------------
+make a folder name demo
+go to cmd of that directory
+mvn --version
+mvn archetype:generate
+then enter enter 
+for group id give com.bnmit
+artifact id= sample-app
+then package give com.bnmit
+then press y
+go to sample-app
+go to app.java , change the code 
+in cmd give 
+cd sample-app
+mvn package
+cd target
+java -cp sample-app-1.0-SNAPSHOT.jar com.bnmit.App
+
+7.
+github repo->BankService.java
+jenkins-> new item->freestyle->discard->git->poll scm-> run
+
+8.
+same 7
+exceute window shell
+javac BankService.java
+java BankService
+run
+
+9/10
+
+pipeline->groovy
